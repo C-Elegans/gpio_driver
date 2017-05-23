@@ -2,9 +2,9 @@
 #define _GPIO_H
 
 enum mode{
-  GPIO_MODE_INPUT,
-  GPIO_MODE_OUTPUT,
-  GPIO_MODE_RESERVED
+  GPIO_MODE_INPUT=0,
+  GPIO_MODE_OUTPUT=1,
+  GPIO_MODE_RESERVED=2
 };
 
 int gpio_init(void);

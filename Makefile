@@ -1,7 +1,7 @@
 LIBS=driver/libgpio.so
 
 all: $(LIBS) test/test
-	./test/test
+	sudo ./test/test
 
 driver/libgpio.so: FORCE
 	$(MAKE) -C driver

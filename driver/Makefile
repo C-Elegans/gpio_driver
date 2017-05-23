@@ -1,5 +1,5 @@
 OBJS=gpio.o
-CFLAGS=-I../
+CFLAGS=-I../ -g
 LDFLAGS=-shared
 
 libgpio.so: $(OBJS)
